@@ -2,10 +2,10 @@ http:
   port: 8080
 admin:
   port: 9876
-  host: localhost
+  host: *
 apiEndpoints:
   api:
-    host: localhost
+    host: *
     paths: '/ip'
 serviceEndpoints:
   httpbin:
