@@ -9,7 +9,7 @@ apiEndpoints:
     paths: '/ip'
 serviceEndpoints:
   httpbin:
-    url: 'https://httpbin.org'
+    url: 'http://httpbin.org'
 policies:
   - basic-auth
   - cors
