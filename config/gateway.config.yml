@@ -2,14 +2,14 @@ http:
   port: 8080
 admin:
   port: 9876
-  host: *
+  host: '*'
 apiEndpoints:
   api:
-    host: *
+    host: '*'
     paths: '/ip'
 serviceEndpoints:
   httpbin:
-    url: 'http://httpbin.org'
+    url: 'https://httpbin.org'
 policies:
   - basic-auth
   - cors
